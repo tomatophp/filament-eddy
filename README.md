@@ -23,7 +23,7 @@ php artisan filament-eddy:install
 finally register the plugin on `/app/Providers/Filament/AdminPanelProvider.php`
 
 ```php
-->plugin(\TomatoPHP\FilamentApi\FilamentAPIPlugin::make())
+->plugin(\TomatoPHP\FilamentEddy\FilamentEddyPlugin::make())
 ```
 
 ## Publish Assets
